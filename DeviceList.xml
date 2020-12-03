@@ -1,0 +1,31 @@
+<?xml version="1.0" ?>
+<configuration version="0.7.1.136" savepassword="True">
+  <root type="database" name="COMPANY" expanded="True">
+    <connection type="PuTTY" name="router1">
+      <connection_info>
+        <name>router1</name>
+        <protocol>SSH</protocol>
+        <host>10.1.1.1</host>
+        <port>22</port>
+        <description/>
+      </connection_info>
+      <command>
+        <command1/>
+        <command2/>
+      </command>
+    </connection>
+    <connection type="PuTTY" name="router2">
+      <connection_info>
+        <name>router2</name>
+        <protocol>SSH</protocol>
+        <host>10.1.1.2</host>
+        <port>22</port>
+        <description/>
+      </connection_info>
+      <command>
+        <command1/>
+        <command2/>
+      </command>
+    </connection>
+  </root>
+</configuration>
